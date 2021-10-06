@@ -1,21 +1,21 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "nodejs-shop",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "Complete Node.js ecommerce",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Ibrahim Kamara",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.4"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.7.4",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
   }
 }
