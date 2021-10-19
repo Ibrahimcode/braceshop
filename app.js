@@ -64,7 +64,7 @@ app.use(errorController.get404);
 
 // app.listen(3000);
 
-mongoose.connect(MONGODB_URL).then(result => {
+mongoose.connect(MONGODB_URL, options).then(result => {
 
     User.findOne()
     .then(user => {
