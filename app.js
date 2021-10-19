@@ -16,7 +16,7 @@ const app = express();
 const PORT = process.env.PORT || 3002; // So we can run on heroku || (OR) localhost:5000
 
 const corsOptions = {
-    origin: "https://braceshop.herokuapp.com/",
+    origin: "braceshop.herokuapp.com/",
     optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
